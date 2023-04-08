@@ -1,7 +1,7 @@
 ---
 description: "Learn more about: __stosq"
 title: "__stosq"
-ms.date: "09/02/2019"
+ms.date: "04/09/2023"
 f1_keywords: ["__stosq"]
 helpviewer_keywords: ["rep stosq instruction", "stosq instruction", "__stosq intrinsic"]
 ms.assetid: 3ea28297-4369-4c2d-bf0c-91fa539ce209
@@ -15,7 +15,7 @@ Generates a store string instruction (`rep stosq`).
 ## Syntax
 
 ```C
-void __stosb(
+void __stosq(
    unsigned __int64* Destination,
    unsigned __int64 Data,
    size_t Count
